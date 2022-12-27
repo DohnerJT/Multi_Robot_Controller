@@ -1,0 +1,165 @@
+
+header
+{
+    text-align: center;
+}
+
+#linkBox
+{
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.findLink
+{
+    margin-top: 10px;
+}
+
+#mainBody
+{
+    width: 100%; height: 100%;
+    margin: auto;
+    background-color: #aaaeb3;
+    border: 4px solid ;
+    box-shadow: inset 0px 0px 200px 200px #6b7078;
+}
+
+#controlBody
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.robotControlBlock
+{
+    height: 400px; width: 300px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.botIMG
+{
+    width: auto;height: 200px;
+    margin: 5px 5px 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 290px auto;
+}
+
+.botIMGPlot
+{
+    position: relative;
+    width: 100%; height: 100%;
+    margin: 0; padding: 0;
+}
+
+    .griper
+    {
+        border: none;
+        margin: 0;
+        background-color: transparent;
+
+        position: absolute;
+        left: 8px; top: 15px;
+        width: 30px; height: 60px;
+    }
+
+    .wrist
+    {
+        border: none;
+        margin: 0;
+
+        position: absolute;
+        left: 75px; top: 10px;
+        width: 40px; height: 60px;
+    }
+
+    .elbow
+    {
+        border: none;
+        margin: 0;
+
+        position: absolute;
+        left: 175px; top: 10px;
+        width: 60px; height: 60px;
+    }
+
+    .sholder
+    {
+        border: none;
+        margin: 0;
+
+        position: absolute;
+        left: 115px; bottom: 80px;
+        /* left: 120px; top: -110px; */
+        width: 60px; height: 40px;
+    }
+
+    .base
+    {
+        border: none;
+        margin: 0;
+
+        position: absolute;
+        left:100px ; bottom: 30px;
+        /* left: 100px; top: -100px; */
+        width: 90px; height: 40px;
+    }
+
+.botComands
+{
+    width: auto;height: 180px;
+    background-color: #c9cbce;
+    box-shadow: inset 0px 3px 30px 5px black;
+    border: 1px solid black; 
+    margin: 0 5px 5px;
+
+}
+.botComandsLable
+{
+    text-align: center;
+    padding: 0 auto 0;
+}
+
+.BotInstructions
+{
+    height: 125px;
+    display: grid;
+    grid-template-columns: 65px 150px 65px;
+    
+}
+
+.Instruction
+{
+width: 100%;
+}
+
+.ActionIddicate
+{
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionInd
+{
+    margin: 5px;
+}
+
+.botAction
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.actionButton
+{
+    max-width: 150px;
+    max-height: 1.5em;
+}
+
